@@ -1,0 +1,145 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+}
+@font-face {
+    font-family: HankenGrotesk-Medium;
+    font-weight: 400;
+    src: url(./assets/fonts/HankenGrotesk-VariableFont_wght.ttf);
+}
+main{
+    font-family: HankenGrotesk-Medium;
+    border: 1px solid rgba(0, 0, 0, 0.366);
+    width: 700px;
+    height: 500px;
+    margin: 80px auto;
+    border-radius: 30px;
+    display: flex;
+    gap: 5px;
+}
+.result{
+    /* border: 1px solid; */
+    height: 100%;
+    width: 350px;
+    border-radius: 30px;
+    background-color: #5F3FFC;
+    
+}
+.scores{
+    /* border: 1px solid; */
+    width: 340px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 40px;
+}
+.scores h2{
+margin-top: -20px;
+margin-left: 30px;
+font-size: 27px;
+}
+.box{
+
+    height: 60px;
+    width: 300px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    margin-left: 15px;
+    padding-left: 15px;
+    border-radius: 20px;
+}
+.cont{
+    font-family: HankenGrotesk-Medium;
+    width: 300px;
+    margin: auto 20px;
+    height: 45px;
+    border-radius: 20px;
+    border: none;
+    font-size: 16px;
+    background-color: #303B59;
+    color: #fff;
+
+}
+.lab{
+    margin: 20px 110px;
+    color: rgba(255, 255, 255, 0.525);
+}
+.avg{
+    width: 200px;
+    height: 200px;
+    border: 1px solid rgba(0, 0, 0, 0);
+    box-shadow: 20px;
+    border-radius: 200px;
+    margin-left: 70px;
+    margin-top: 40px;
+    background-color: #4533EB;
+
+}
+#score{
+    margin-left: 55px;
+    text-decoration: solid;
+    color: white;
+    font-size: 80px;
+    margin-top: 30px;
+    
+}
+.overall{
+    margin-left: 80px;
+color: #9c8ce7;
+font-size: 15px;
+}
+.keyword{
+    /* margin-left: 140px; */
+    margin-top: 30px;
+    color: #fff;
+    text-align: center;
+}
+.percent{
+    text-align: center;
+    margin-top: 30px;
+    color: #fff;
+}
+.icon{
+    height: 30px;
+    width: 30px;
+    margin-top: 15px;
+    float: left;
+}
+.subj{
+    float: left;
+    margin-top: 18px;
+    margin-left: 8px;
+    font-size: 17px;
+}
+.subj_score{
+    float: right;
+    margin-top: 20px;
+    margin-right: 15px;
+}
+.reaction{
+background-color: #fbdcd9;
+}
+.memory{
+    background-color: #fef4dd;
+    
+}
+.visual{
+    background-color: #dcdcfc;
+    
+}
+.verbal{
+    background-color: #e5fcf9;
+
+}
+.txt{
+    color: red;
+}
+.txt1{
+    color: #fcb103;
+}
+.txt2{
+    color: #08fbda;
+}
+.txt3{
+    color: #0e0efa;
+}
